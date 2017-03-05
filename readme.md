@@ -6,10 +6,10 @@
 ## Install
 
 ```
-$ npm install --save-dev prettier-check
+$ npm install --save-dev prettier prettier-check
 ```
 
-> :bug: If you are using yarn there is an [open issue from yarn](https://github.com/yarnpkg/yarn/issues/760) that breaks `prettier-check`. But there is a [workaround](https://github.com/wix/yarn-bin-fix).
+> Make sure you have `prettier` as a dependency, if not, `prettier-check` may break when using yarn or old versions of npm. For more information see this [yarn issue](https://github.com/yarnpkg/yarn/issues/760).
 
 ## Usage
 
