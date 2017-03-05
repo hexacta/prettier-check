@@ -21,7 +21,9 @@
     "ci",
     "check",
     "lint",
-    "style"
+    "style",
+    "formatter",
+    "code-style"
   ],
   "dependencies": {
     "execa": "^0.6.0",
