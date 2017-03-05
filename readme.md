@@ -9,6 +9,7 @@
 $ npm install --save-dev prettier-check
 ```
 
+> :bug: If you are using yarn there is an [open issue from yarn](https://github.com/yarnpkg/yarn/issues/760) that breaks `prettier-check`. But there is a [workaround](https://github.com/wix/yarn-bin-fix).
 
 ## Usage
 
