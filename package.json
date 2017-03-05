@@ -1,6 +1,6 @@
 {
   "name": "prettier-check",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check that all files match prettier code style.",
   "license": "MIT",
   "repository": "hexacta/prettier-check",
