@@ -21,6 +21,14 @@ Use it in the test script in your package.json:
   },
 ```
 
+All args are forwarded to prettier:
+
+```json
+  "scripts": {
+    "test": "prettier-check --single-quote --trailing-comma es5 src/**/*.js"
+  },
+```
+
 ## License
 
 MIT © [Hexacta](https://www.hexacta.com)
