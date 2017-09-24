@@ -12,10 +12,7 @@
   "scripts": {
     "test": "ava"
   },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
+  "files": ["index.js", "cli.js"],
   "keywords": [
     "prettier",
     "ci",
@@ -29,7 +26,8 @@
     "execa": "^0.6.0"
   },
   "devDependencies": {
-    "ava": "^0.17.0"
+    "ava": "^0.17.0",
+    "prettier": "x.x.x"
   },
   "peerDependencies": {
     "prettier": "x.x.x"

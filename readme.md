@@ -9,7 +9,7 @@
 $ npm install --save-dev prettier prettier-check
 ```
 
-> Make sure you have `prettier` as a dependency (or globally), if not, `prettier-check` may break when using yarn or old versions of npm. For more information see this [yarn issue](https://github.com/yarnpkg/yarn/issues/760).
+> Make sure you have `prettier` as a dependency (or globally).
 
 ## Usage
 
