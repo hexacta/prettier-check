@@ -1,6 +1,6 @@
 {
   "name": "prettier-check",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Check that all files match prettier code style.",
   "license": "MIT",
   "repository": "hexacta/prettier-check",
@@ -12,7 +12,10 @@
   "scripts": {
     "test": "ava"
   },
-  "files": ["index.js", "cli.js"],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "keywords": [
     "prettier",
     "ci",
