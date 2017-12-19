@@ -25,7 +25,7 @@ module.exports = args => {
         return 3;
       } else {
         console.error(UNEXPECTED_ERROR);
-				console.error(error);
+	console.error(error);
         return 1;
       }
     });
