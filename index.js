@@ -3,7 +3,8 @@ const execa = require("execa");
 
 const NO_ERROR = "All files using prettier code style.";
 const GENERAL_ERROR = "Error when running prettier:";
-const STYLE_ERROR = "Forgot to run prettier? There are files without correct code style:";
+const STYLE_ERROR =
+  "Forgot to run prettier? There are files without correct code style:";
 const UNEXPECTED_ERROR = "Unexpected error:";
 
 module.exports = args => {
@@ -25,7 +26,7 @@ module.exports = args => {
         return 3;
       } else {
         console.error(UNEXPECTED_ERROR);
-				console.error(error);
+        console.error(error);
         return 1;
       }
     });

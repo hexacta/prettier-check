@@ -10,12 +10,13 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "lint-fix":
+      "prettier --write --ignore-path .gitignore \"{index,cli,test}.js\"",
+    "lint":
+      "node cli.js --write --ignore-path .gitignore \"{index,cli,test}.js\""
   },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
+  "files": ["index.js", "cli.js"],
   "keywords": [
     "prettier",
     "ci",
